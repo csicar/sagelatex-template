@@ -4,11 +4,11 @@
 \usepackage{amsmath}
 \begin{document}
 
-\section*{9}
 \begin{sagesilent}
   _nice_colors = map(compose( lambda self: self.darker(0.23), Color), ["#DB4430", "#E8B71A", "#1FDA9A", "#28ABE3",  "#FF85CB", "#FFAC00", "#FF432E"])
   def nc(i):
     return _nice_colors[i.mod(len(_nice_colors))]
 \end{sagesilent}
+\section*{Test}
 
 \end{document}
