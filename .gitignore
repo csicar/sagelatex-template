@@ -1,3 +1,4 @@
+#latex
 *.aux
 *.glo
 *.idx
@@ -21,3 +22,12 @@
 *.mtc1
 *.out
 *.synctex.gz
+
+#sage
+*.sagetex.sage
+*.sagetex.sage.py
+*.sagetex.scmd
+*.sagetex.sout
+
+#build-folder
+build
